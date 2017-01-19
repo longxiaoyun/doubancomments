@@ -22,11 +22,11 @@ class DoubantestPipeline(object):
 
 def DBHandler():
 	conn=MySQLdb.connect(
-		host="106.14.72.212",
-		user="root",
-		passwd="niki1573",
+		host="",
+		user="",
+		passwd="",
 		charset="utf8",
-		db="douban",
+		db="",
 		use_unicode=False
 	)
 	return conn
